@@ -1,0 +1,15 @@
+{
+    "num_attributes": 1,
+    "attribute_info": [],
+    "data_csv":"./applications/classify/datasets/dense/normalized_nov#_dense_mitbih/features/patient208Data.csv",
+    "label_csv":"./applications/classify/datasets/dense/normalized_nov#_dense_mitbih/labels/patient208Labels.csv",
+    "targets": [],
+    "test": false,
+    "timeseries": "dense",
+    "split_test_size": 0.2,
+    "split_seed": 0,
+    "fitness": "f1",
+    "show_confusion_matrix": true,
+    "show_attribute_info": true,
+    "show_data_max_length": true
+}

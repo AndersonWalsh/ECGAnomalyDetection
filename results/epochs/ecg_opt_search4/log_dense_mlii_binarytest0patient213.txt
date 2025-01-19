@@ -1,0 +1,24 @@
+bin/classify_risp -a train  --sim_time 20000 --threads 16 --episodes 10 --epochs 20 --max_fitness 0.9 --encoder '{"spikes": {"max_spikes": 8, "flip_flop": 2}}' --decoder '{"spikes": {"binning_style": "wta"}}' --extra_eons_params '{"population_size": 50}'
+Attribute Info(Jspace):[
+{"high":7.427144133408616,"low":6.249975242259483,"type":"D"} ]
+Data streams max length: 299  
+Epoch:   0     Time:   20.3      Best: 0.712044
+Epoch:   1     Time:   28.6      Best: 0.712044
+Epoch:   2     Time:   39.0      Best: 0.712044
+Epoch:   3     Time:   38.7      Best: 0.712044
+Epoch:   4     Time:   28.0      Best: 0.712044
+Epoch:   5     Time:   29.0      Best: 0.712044
+Epoch:   6     Time:   46.6      Best: 0.712044
+Epoch:   7     Time:   33.5      Best: 0.712044
+Epoch:   8     Time:   28.6      Best: 0.712044
+Epoch:   9     Time:   33.9      Best: 0.712044
+Epoch:  10     Time:   47.6      Best: 0.712044
+Epoch:  11     Time:   32.8      Best: 0.712044
+Epoch:  12     Time:   36.7      Best: 0.712044
+Epoch:  13     Time:   34.0      Best: 0.712044
+Epoch:  14     Time:   34.7      Best: 0.712044
+Epoch:  15     Time:   35.2      Best: 0.712044
+Epoch:  16     Time:   34.8      Best: 0.712044
+Epoch:  17     Time:   33.2      Best: 0.712044
+Epoch:  18     Time:   38.6      Best: 0.712044
+Epoch:  19     Time:   33.0      Best: 0.712044

@@ -1,0 +1,15 @@
+{
+    "num_attributes": 2,
+    "attribute_info": [],
+    "data_csv":"./applications/classify/datasets/sparse/csv_mitbih_training/features/patient208Data.csv",
+    "label_csv":"./applications/classify/datasets/sparse/csv_mitbih_training/labels/patient208Labels.csv",
+    "targets": [],
+    "test": false,
+    "timeseries": "sparse",
+    "split_test_size": 0.2,
+    "split_seed": 0,
+    "fitness": "f1",
+    "show_confusion_matrix": false,
+    "show_attribute_info": true,
+    "show_data_max_length": true
+}

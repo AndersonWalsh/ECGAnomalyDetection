@@ -1,0 +1,5 @@
+bin/classify_risp -a train  --sim_time 20000 --threads 16 --episodes 10 --epochs 20 --max_fitness 0.9 --encoder '{"spikes": {"max_spikes": 8, "flip_flop": 2}}' --decoder '{"spikes": {"binning_style": "wta"}}' --extra_eons_params '{"population_size": 50}'
+Attribute Info(Jspace):[
+{"high":7.080026499922591,"low":6.208590026096629,"type":"D"} ]
+Data streams max length: 180  
+Epoch:   0     Time:   21.5      Best: 0.993469

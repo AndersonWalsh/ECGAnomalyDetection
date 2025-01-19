@@ -1,0 +1,15 @@
+{
+    "num_attributes": 6,        
+    "attribute_info": [],
+    "data_csv":"./applications/classify/datasets/non_timeseries/digits_data.csv",
+    "label_csv": "./applications/classify/datasets/non_timeseries/digits_label.csv",
+    "targets": [], 
+    "test": false,
+    "timeseries": "none",       
+    "split_test_size": 0,
+    "split_seed": 0,
+    "fitness": "accuracy",
+    "show_confusion_matrix": true,
+    "show_attribute_info": false,
+    "show_data_max_length": false
+}

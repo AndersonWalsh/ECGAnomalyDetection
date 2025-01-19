@@ -1,0 +1,24 @@
+{
+    "app": ["classify"],
+    "proc": ["risp", "ravens"],
+    "encoder": 
+            {"spikes": 
+                {"max_spikes": [4,6,8,10,12],
+                "flip_flop": [2]
+                }
+            },
+    "decoder":
+            {
+                "spikes":
+                {"binning_style": ["WTA"]}
+            },
+    "extra_eons_params": 
+        {"population_size": [50]},
+    "extra_params_static": {
+        "sim_time": [20000],
+        "threads": [16],
+        "episodes": [10],
+        "epochs": [50],
+        "max_fitness": [0.90]
+    }
+}

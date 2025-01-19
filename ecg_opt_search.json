@@ -1,0 +1,23 @@
+{
+    "app": ["classify"],
+    "proc": ["risp", "ravens"],
+    "encoder": 
+            {"temporal": 
+                {"ov_interval":[1,50,100], 
+                "higher_earlier":["false", "true"]}
+            },
+    "decoder":
+            {
+                "spikes":
+                {"binning_style": ["WTA"]}
+            },
+    "extra_eons_params": 
+        {"population_size": [50]},
+    "extra_params_static": {
+        "threads": [16],
+        "episodes": [10],
+        "epochs": [50],
+        "max_fitness": [0.96],
+        "sim_time": [1800]
+    }
+}

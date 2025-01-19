@@ -1,0 +1,6 @@
+bin/classify_ravens -a train  --threads 16 --episodes 10 --epochs 50 --max_fitness 0.96 --sim_time 1800 --encoder '{"temporal": {"ov_interval": 1, "higher_earlier": true}}' --decoder '{"spikes": {"binning_style": "wta"}}' --extra_eons_params '{"population_size": 50}'
+Attribute Info(Jspace):[
+{"high":1304.0,"low":134.0,"type":"D"},
+{"high":1290.0,"low":291.0,"type":"D"} ]
+Data streams max length: 180  180  
+Epoch:   0     Time:    2.2      Best: 0.986022

@@ -1,0 +1,4 @@
+./csv_mitbih_database/*.csv
+./csv_mitbih_training/labels/*.csv
+./csv_mitbih_training/features/*.csv
+./csv_mitbih_training/class/*.csv

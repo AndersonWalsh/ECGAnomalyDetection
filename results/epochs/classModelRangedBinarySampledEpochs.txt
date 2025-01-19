@@ -1,0 +1,17 @@
+bin/classify_risp -a train -t dense --sim_time 1800 --threads 16 --epochs 100 --episodes 10 --encoder '{"spikes": {"flip_flop": 2, "max_spikes": 10}}' --extra_eons_params '{"population_size": 50}'
+Attribute Info(Jspace):[
+{"high":2047.0,"low":0.0,"type":"D"} ]
+Data streams max length: 180  
+Epoch:   0     Time:  193.6      Best: 0.50558
+Epoch:   1     Time:  230.4      Best: 0.50558
+Epoch:   2     Time:  267.3      Best: 0.50558
+Epoch:   3     Time:  261.7      Best: 0.50558
+Epoch:   4     Time:  202.9      Best: 0.50558
+Epoch:   5     Time:  203.3      Best: 0.50558
+Epoch:   6     Time:  211.7      Best: 0.50558
+Epoch:   7     Time:  254.5      Best: 0.50558
+Epoch:   8     Time:  331.9      Best: 0.50558
+Epoch:   9     Time:  317.1      Best: 0.50558
+Epoch:  10     Time:  337.4      Best: 0.50558
+Epoch:  11     Time:  326.5      Best: 0.50558
+Epoch:  12     Time:  314.4      Best: 0.50558

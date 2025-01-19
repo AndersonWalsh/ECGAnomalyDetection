@@ -1,0 +1,54 @@
+bin/classify_risp -a train  --sim_time 20000 --threads 16 --episodes 10 --epochs 50 --max_fitness 0.9 --encoder '{"spikes": {"max_spikes": 4, "flip_flop": 2}}' --decoder '{"spikes": {"binning_style": "wta"}}' --extra_eons_params '{"population_size": 50}'
+Attribute Info(Jspace):[
+{"high":1500.0,"low":485.0,"type":"D"} ]
+Data streams max length: 180  
+Epoch:   0     Time:   23.3      Best: 0.340087
+Epoch:   1     Time:   37.4      Best: 0.340087
+Epoch:   2     Time:   28.9      Best: 0.340087
+Epoch:   3     Time:   34.4      Best: 0.360785
+Epoch:   4     Time:   57.1      Best: 0.360785
+Epoch:   5     Time:   38.4      Best: 0.360785
+Epoch:   6     Time:   36.7      Best: 0.360785
+Epoch:   7     Time:   43.5      Best: 0.360785
+Epoch:   8     Time:   51.1      Best: 0.360785
+Epoch:   9     Time:   36.5      Best: 0.360785
+Epoch:  10     Time:   47.2      Best: 0.360785
+Epoch:  11     Time:   44.9      Best: 0.360785
+Epoch:  12     Time:   74.7      Best: 0.360785
+Epoch:  13     Time:   50.6      Best: 0.360785
+Epoch:  14     Time:   51.5      Best: 0.360785
+Epoch:  15     Time:   26.5      Best: 0.360785
+Epoch:  16     Time:   19.0      Best: 0.360785
+Epoch:  17     Time:   24.6      Best: 0.360785
+Epoch:  18     Time:   22.1      Best: 0.360785
+Epoch:  19     Time:   20.7      Best: 0.360785
+Epoch:  20     Time:   22.3      Best: 0.360785
+Epoch:  21     Time:   23.4      Best: 0.360785
+Epoch:  22     Time:   27.9      Best: 0.360785
+Epoch:  23     Time:   41.9      Best: 0.360785
+Epoch:  24     Time:   41.7      Best: 0.360785
+Epoch:  25     Time:   45.8      Best: 0.360785
+Epoch:  26     Time:   37.5      Best: 0.360785
+Epoch:  27     Time:   37.7      Best: 0.360785
+Epoch:  28     Time:   21.2      Best: 0.360785
+Epoch:  29     Time:   40.9      Best: 0.360785
+Epoch:  30     Time:   34.3      Best: 0.360785
+Epoch:  31     Time:   24.9      Best: 0.360785
+Epoch:  32     Time:   36.1      Best: 0.360785
+Epoch:  33     Time:   23.7      Best: 0.360785
+Epoch:  34     Time:   22.4      Best: 0.360785
+Epoch:  35     Time:   22.4      Best: 0.360785
+Epoch:  36     Time:   21.3      Best: 0.360785
+Epoch:  37     Time:   35.7      Best: 0.360785
+Epoch:  38     Time:   27.8      Best: 0.360785
+Epoch:  39     Time:   39.4      Best: 0.360785
+Epoch:  40     Time:   35.7      Best: 0.360785
+Epoch:  41     Time:   49.9      Best: 0.360785
+Epoch:  42     Time:   22.7      Best: 0.360785
+Epoch:  43     Time:   49.5      Best: 0.360785
+Epoch:  44     Time:   48.5      Best: 0.360785
+Epoch:  45     Time:   51.8      Best: 0.360785
+Epoch:  46     Time:   49.9      Best: 0.360785
+Epoch:  47     Time:   37.3      Best: 0.360785
+Epoch:  48     Time:   28.0      Best: 0.360785
+Epoch:  49     Time:   28.1      Best: 0.360785
