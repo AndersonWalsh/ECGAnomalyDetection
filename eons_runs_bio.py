@@ -237,7 +237,7 @@ def runCommands(prompts, startInd=0):
 
                     filePrepend = folder[folder.rfind("dense/")+6:]
                     os.system(f'echo "{echoStr}" > ./automated_testing/network_results/{filePrepend}test{testNum}patient{file[-11:-8]}.txt')
-                    os.system(f"{prompts[i]} -t dense >> ./automated_testing/network_results/{filePrepend}test{testNum}patient{file[-11:-8]}.txt") #part of the laziest 1am fixes of all time
+                    os.system(f"{prompts[i]} -t dense >> ./automated_testing/network_results/{filePrepend}test{testNum}patient{file[-11:-8]}.txt")
                     networkName = prompts[i].split()[0][4:]
                     os.system(f"cp ./networks/{networkName}_train.txt ./automated_testing/generated_networks/{filePrepend}{networkName}{testNum}patient{file[-11:-8]}.txt")
 
